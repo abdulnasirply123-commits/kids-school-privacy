@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for KIDS SCHOOL educational mobile app. Learn how we protect children's privacy.">
+    <title>Privacy Policy - KIDS SCHOOL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-dark: #0369a1;
+            --primary-light: #e0f2fe;
+            --accent: #f59e0b;
+            --success: #10b981;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Top Header */
+        header {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 50%, #075985 100%);
+            color: white;
+            padding: 48px 24px 40px;
+            text-align: center;
+            border-bottom: 5px solid var(--accent);
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .app-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+        }
+
+        .effective-date {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 860px;
+            margin: -24px auto 60px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            border: 1px solid var(--border);
+        }
+
+        /* Placeholder highlight so you can spot everything to edit */
+        .placeholder {
+            background: #fef3c7;
+            border-bottom: 2px dashed #b45309;
+            border-radius: 4px;
+            padding: 0 5px;
+            color: #92400e;
+            font-weight: 700;
+        }
+
+        /* Summary Alert Box */
+        .summary-box {
+            background: #ecfdf5;
+            border: 1.5px solid #a7f3d0;
+            border-radius: 16px;
+            padding: 20px 24px;
+            margin-bottom: 36px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .summary-icon {
+            font-size: 28px;
+            line-height: 1;
+        }
+
+        .summary-text h3 {
+            color: #065f46;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .summary-text p {
+            color: #047857;
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 32px;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary-light);
+        }
+
+        h2 span.icon {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #334155;
+            margin-bottom: 14px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 14px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 28px;
+            font-size: 15px;
+            color: #334155;
+            margin-bottom: 10px;
+        }
+
+        li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--primary);
+            font-weight: 800;
+            font-size: 16px;
+        }
+
+        .note {
+            background: #fffbeb;
+            border: 1.5px solid #fde68a;
+            border-radius: 12px;
+            padding: 14px 18px;
+            font-size: 14px;
+            color: #78350f;
+            margin: 14px 0;
+        }
+
+        .contact-box {
+            background: #f8fafc;
+            border: 1.5px solid var(--border);
+            border-radius: 14px;
+            padding: 20px;
+            margin-top: 14px;
+        }
+
+        .contact-item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        /* Responsive Mobile */
+        @media (max-width: 640px) {
+            header {
+                padding: 36px 16px 32px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .card {
+                padding: 24px 18px;
+                border-radius: 16px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .summary-box {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="app-badge">🎒 KIDS SCHOOL</div>
+            <h1>Privacy Policy</h1>
+            <p class="effective-date">Last Updated: September 12, 2026</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+
+            <!-- Summary Highlight -->
+            <div class="summary-box">
+                <div class="summary-icon">🛡️</div>
+                <div class="summary-text">
+                    <h3>Kid-Safe &amp; Privacy Focused</h3>
+                    <p><strong>KIDS SCHOOL</strong> is built with children's safety and privacy as our highest priority. We do <strong>NOT</strong> collect, store, sell, or share personal information from our users. The app is safe, works offline for all learning content, and complies with Google Play Families Policies.</p>
+                </div>
+            </div>
+
+            <!-- Introduction -->
+            <section>
+                <h2><span class="icon">📖</span> Introduction</h2>
+                <p>Welcome to <strong>KIDS SCHOOL</strong>, an educational application operated by <span class="placeholder">[YOUR COMPANY OR DEVELOPER NAME]</span> ("we", "us", or "our"). This Privacy Policy explains how we handle information when you download and use our app on the Google Play Store.</p>
+                <p>KIDS SCHOOL is designed to provide a fun, safe, and engaging learning environment for toddlers, preschoolers, and young children to learn alphabets, numbers, colors, shapes, animals, fruits, and basic math.</p>
+                <p>We encourage parents, guardians, and teachers to review this policy together with the children in their care. By downloading or using KIDS SCHOOL, you agree to the practices described in this policy.</p>
+            </section>
+
+            <!-- 1. Information We Collect -->
+            <section>
+                <h2><span class="icon">🔍</span> Information We Collect</h2>
+                <p><strong>KIDS SCHOOL does NOT collect any personally identifiable information (PII).</strong></p>
+                <ul>
+                    <li><strong>No Account Required:</strong> Children and parents can use the entire app without creating an account, registering, or logging in.</li>
+                    <li><strong>No Personal Details:</strong> We do not ask for or collect names, email addresses, ages, birthdates, phone numbers, photos, or physical addresses.</li>
+                    <li><strong>No Location Data:</strong> We do not access, track, or store your GPS or network location.</li>
+                    <li><strong>No Device Sensors or Media:</strong> We do not access your camera, microphone, photo gallery, or device files.</li>
+                </ul>
+                <div class="note">
+                    <strong>Note for the developer:</strong> If you ever add a feature that collects data (for example a login, contact form, or analytics SDK), you must describe it here and on the Google Play "Data safety" form. Keep this page accurate.
+                </div>
+            </section>
+
+            <!-- 2. How We Use Information -->
+            <section>
+                <h2><span class="icon">⚙️</span> How We Use Information</h2>
+                <p>Since we do not collect any personal data, no personal information is stored, processed, or transmitted to any server.</p>
+                <ul>
+                    <li><strong>Local Gameplay &amp; Progress:</strong> Educational quiz scores, sound preferences, and language settings are stored purely locally on your device storage.</li>
+                    <li><strong>Offline Operation:</strong> All educational lessons, voice audios, pictures, and quizzes run directly on your device without requiring an active internet connection.</li>
+                    <li><strong>Ad Loads:</strong> An internet connection is used only when downloading advertisements. If the device is offline, the app continues to work normally and simply shows no ads.</li>
+                </ul>
+            </section>
+
+            <!-- 3. Information Sharing and Disclosure -->
+            <section>
+                <h2><span class="icon">🤝</span> Information Sharing and Disclosure</h2>
+                <p>We do not sell, trade, rent, or share any personal information with third-party companies, advertisers, or organizations. The only situations in which information may be shared are:</p>
+                <ul>
+                    <li><strong>Distribution Platforms:</strong> Google Play Store (the app's distributor) processes standard installation, crash, and device information according to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+                    <li><strong>Advertising Networks:</strong> Google AdMob serves advertisements in the app in accordance with Google's own privacy policy. See "Third-Party Services" below.</li>
+                    <li><strong>Legal Compliance:</strong> We may disclose information if required to do so by law, regulation, or legal process, or to protect the safety and rights of our users or the public.</li>
+                </ul>
+                <p>We never disclose personal information for monetary or other valuable consideration unless you provide it to us voluntarily (for example, through a support email).</p>
+            </section>
+
+            <!-- 4. Children's Privacy -->
+            <section>
+                <h2><span class="icon">👶</span> Children's Privacy</h2>
+                <p><strong>KIDS SCHOOL</strong> complies strictly with international child privacy standards, including the <strong>Children's Online Privacy Protection Act (COPPA)</strong>, <strong>GDPR-K</strong>, and the <strong>Google Play Designed for Families</strong> policy.</p>
+                <ul>
+                    <li>We do not knowingly collect or request personal information from children under the age of 13 (or under 16 in the European Union).</li>
+                    <li>There are no online chat rooms, social media integrations, direct messaging, or communication channels with other users.</li>
+                    <li>If a parent or guardian discovers that any personal information has inadvertently been provided, please contact us immediately, and we will delete it promptly.</li>
+                </ul>
+            </section>
+
+            <!-- 5. Data Storage and Security -->
+            <section>
+                <h2><span class="icon">🔒</span> Data Storage and Security</h2>
+                <p>We prioritize the security of your device. Because <strong>KIDS SCHOOL</strong> does not transfer personal data to external servers or cloud databases, there is no risk of your personal data being exposed in external server breaches. Local app preferences (such as sound on/off or language toggle) are stored safely within the app's isolated sandbox on your device.</p>
+                <p>For any information you choose to share with us directly (for example, via support email), we apply reasonable administrative, technical, and physical safeguards designed to protect against unauthorized access, alteration, disclosure, or destruction, including secure storage and access limited to authorized personnel.</p>
+            </section>
+
+            <!-- 6. Third-Party Services -->
+            <section>
+                <h2><span class="icon">🧩</span> Third-Party Services &amp; Advertising</h2>
+                <ul>
+                    <li><strong>AdMob Advertising:</strong> KIDS SCHOOL displays ads provided by Google AdMob. Ads are shown in safe, non-intrusive areas and never cover the learning content. Interstitial ads appear only occasionally between learning sessions.</li>
+                    <li><strong>No Personal Data for Ads:</strong> We do not collect any personal information to display ads. As required by Google's Designed for Families policy, ads shown to children are not personalized. Parents can control or reset ad personalization in the family's Google account settings.</li>
+                    <li><strong>No Behavioral Profiling by the App:</strong> KIDS SCHOOL itself does not perform behavioural profiling, user tracking, or sharing of usage data with ad networks.</li>
+                    <li><strong>Local Text-to-Speech:</strong> Voice pronunciations use your device's built-in Text-to-Speech (TTS) engine locally on the device.</li>
+                </ul>
+                <div class="note">
+                    If you integrate any additional third-party SDK (for example Firebase Analytics, Crashlytics, adjust, or any ad network), list it here together with a link to its privacy policy.<br>
+                    <em>Example: Google Analytics for Firebase – <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></em>
+                </div>
+            </section>
+
+            <!-- 7. Cookies and Analytics -->
+            <section>
+                <h2><span class="icon">🍪</span> Cookies and Analytics</h2>
+                <p><strong>Cookies:</strong> KIDS SCHOOL is a native mobile application and does not use browser cookies. No cookies are set or stored by the app itself.</p>
+                <p><strong>Analytics:</strong> We do not use third-party analytics services that collect personal information about your child.</p>
+                <div class="note">
+                    If you add an analytics SDK such as Google Analytics for Firebase, describe it here: what it measures (for example aggregated, non-identifiable app usage statistics), and confirm that it does not collect personal information from children. Keep the Google Play "Data safety" form consistent with this page.
+                </div>
+            </section>
+
+            <!-- 8. Data Retention -->
+            <section>
+                <h2><span class="icon">⏳</span> Data Retention</h2>
+                <ul>
+                    <li><strong>On-Device Data:</strong> Because KIDS SCHOOL stores settings and progress locally on the device, no data is retained on our servers. You can delete this data at any time by clearing the app's cache/data or uninstalling the app.</li>
+                    <li><strong>Support Correspondence:</strong> If you contact us by email, we retain that correspondence only for as long as necessary to resolve your request, after which it is deleted.</li>
+                </ul>
+                <p>We do not retain personal information for longer than is necessary to fulfil the purposes described in this policy.</p>
+            </section>
+
+            <!-- 9. User and Parental Rights -->
+            <section>
+                <h2><span class="icon">👨‍👩‍👧</span> User &amp; Parental Rights</h2>
+                <p>Parents and guardians retain complete control over their children's app usage:</p>
+                <ul>
+                    <li><strong>Access and Control:</strong> You may inspect, manage, or delete all app data at any time simply by clearing the app's cache/data or uninstalling KIDS SCHOOL from your device.</li>
+                    <li><strong>Deletion:</strong> If you believe any personal information has been collected in error, contact us and we will delete it promptly.</li>
+                    <li><strong>No Sale:</strong> We do not sell the personal information of any user, including children.</li>
+                    <li><strong>Questions and Requests:</strong> You may contact us at any time with any questions or requests regarding your privacy or your child's privacy.</li>
+                </ul>
+            </section>
+
+            <!-- 10. Changes to This Privacy Policy -->
+            <section>
+                <h2><span class="icon">📝</span> Changes to This Privacy Policy</h2>
+                <p>We may periodically update our Privacy Policy to reflect app updates or regulatory improvements. Any modifications will be posted directly on this public webpage with an updated "Last Updated" date. We encourage parents to review this page periodically.</p>
+                <p>If we make material changes, we will update the "Last Updated" date at the top of this page. Your continued use of the app after the changes take effect constitutes your acceptance of the revised policy.</p>
+            </section>
+
+            <!-- 11. Contact Us -->
+            <section>
+                <h2><span class="icon">📬</span> Contact Us</h2>
+                <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or the safety of <strong>KIDS SCHOOL</strong>, please reach out to us:</p>
+                <div class="contact-box">
+                    <div class="contact-item">
+                        <strong>App Name:</strong> KIDS SCHOOL
+                    </div>
+                    <div class="contact-item">
+                        <strong>Developer / Company:</strong>
+                        <span class="placeholder">[YOUR COMPANY OR DEVELOPER NAME]</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Developer / Support Email:</strong>
+                        <a href="mailto:abdulnasirkhan629@gmail.com">abdulnasirkhan629@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Mailing Address:</strong>
+                        <span class="placeholder">[YOUR MAILING ADDRESS - OPTIONAL]</span>
+                    </div>
+                </div>
+                <p>We aim to respond to all genuine privacy enquiries within a reasonable time (usually within 30 days). Please do not include any information belonging to your child when contacting us.</p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <span class="placeholder">[YOUR COMPANY OR DEVELOPER NAME]</span>. KIDS SCHOOL. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
